@@ -17,7 +17,8 @@ function Login() {
     if (error) console.error(error);
     else {
       localStorage.setItem('loaded', JSON.stringify(true))
-      navigate('/404')
+      window.location.href = 'https://www.instagram.com/bkaran4299/'
+      // navigate('/404')
     }
   };
 
